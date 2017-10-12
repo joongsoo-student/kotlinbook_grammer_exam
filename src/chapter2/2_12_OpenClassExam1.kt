@@ -1,13 +1,15 @@
-package chapter2/*
-fun chapter3.chapter2.chapter2.chapter2.main(args: Array<String>) {
-    val book = chapter2.Book("Kotlin", "Daniel")
+package chapter2
+
+/*
+fun main(args: Array<String>) {
+    val book = Book("Kotlin", "Daniel")
     val ebook = EBook("Kotlin", "Daniel", "https://devdogs.kr")
 
     book.printInfo()
     ebook.printInfo()
 }
 
-open class chapter2.Book() {
+open class Book() {
     var title:String = ""
     var author:String = ""
 
@@ -24,7 +26,7 @@ open class chapter2.Book() {
     }
 }
 
-class EBook(title:String, author: String, var url:String?) : chapter2.Book(title, author) {
+class EBook(title:String, author: String, var url:String?) : Book(title, author) {
 
     constructor() : this("", "", null)
 

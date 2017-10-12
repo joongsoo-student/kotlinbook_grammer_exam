@@ -19,4 +19,10 @@ fun main(args:Array<String>) {
     // 상수 선언
     val str:String = "Hello World!"
     // str = "ABCD" // 컴파일 에러
+
+
+    println(num1)
+    println(num2)
+    println(num4)
+    println(str)
 }

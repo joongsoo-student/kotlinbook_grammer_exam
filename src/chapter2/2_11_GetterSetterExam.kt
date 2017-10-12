@@ -1,5 +1,8 @@
-package chapter2/*
-class chapter2.Book() {
+package chapter2
+
+
+/*
+class Book() {
     var title:String?
     get() {
         return title

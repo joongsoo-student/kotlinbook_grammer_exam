@@ -1,5 +1,7 @@
 package chapter2
 
+
+/*
 class Calculator {
     val d = 10
     fun sum(a:Int, b:Int):Int {
@@ -32,3 +34,4 @@ fun main(args:Array<String>) {
     println(myClass.minus(10,2))
     println(myClass.sum(1,2,3))
 }
+*/

@@ -1,5 +1,6 @@
 package chapter2
 
+/*
 interface Parent1 {
     val str:String
 
@@ -24,3 +25,4 @@ class Child: Parent1, Parent2 {
         super<Parent2>.myMethod()
     }
 }
+        */

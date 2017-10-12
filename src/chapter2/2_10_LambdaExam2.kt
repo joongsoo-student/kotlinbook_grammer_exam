@@ -17,7 +17,7 @@ fun sum(a:Int, b:Int):Int {
 
 fun main(args: Array<String>) {
     /*
-    chapter2.invokeFunction3({ a, b ->
+    invokeFunction3({ a, b ->
         val c = a + b
         c
     })

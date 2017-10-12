@@ -1,15 +1,17 @@
-package chapter2/*
+package chapter2
+
+/*
 interface Parent {
     val str:String
 
     fun myMethod()
 }
 
-class chapter2.Child:Parent {
+class Child:Parent {
     override val str = "chapter2.Child"
 
     override fun myMethod() {
-        // chapter2.Child Override
+        // Child Override
     }
 }
         */
